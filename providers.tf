@@ -10,5 +10,5 @@ terraform {
 # Configuration options
 provider "aws" {
   region  = var.my_bucket_region
-  profile = "buckets3"
+  profile = "default"
 }
